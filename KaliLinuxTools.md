@@ -7,7 +7,7 @@
 
 #### When performing penetration testing or hacking, we may need to automate our operations because there may be hundreds of conditions and payloads to test, and testing them manually is tedious. To save time, we use tools that come pre-installed with Kali Linux, they not only save our time but also capture reliable data and output precise results. Kali Linux comes packed with more than 350 tools which is useful for hacking or penetration testing.
 
-# Information Gathering 
+# 1.Information Gathering 
 
 ## DNS Analysis
 ### dnsenum

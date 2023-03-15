@@ -144,7 +144,7 @@
 ## Route Analysis
 
 <p align="center">
-  <img src="https://d4.alternativeto.net/-1FoJMwxFp2FsUW2TKOMnIl0kpRCMsf6g7R1Mf8fV-E/rs:fill:280:280:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy9uZXRkaXNjb3Zlcl8yMDQxMTkucG5n.png" width="250" alt="        "/> <br/>
+  <img src="https://d4.alternativeto.net/-1FoJMwxFp2FsUW2TKOMnIl0kpRCMsf6g7R1Mf8fV-E/rs:fill:280:280:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy9uZXRkaXNjb3Zlcl8yMDQxMTkucG5n.png" width="250" alt="netdiscover"/> <br/>
 </p>
 
 ### netdiscover
@@ -161,9 +161,7 @@
 - This is a tiny program handy if you work with firewalls or routers occasionally.
 - It can determine the smallest set of network masks to specify a range of hosts. It can also convert between common IP netmask and address formats.
 - netmask 255.255 255.0 means that A class C network would have a subnet mask of 255.255. 255.0 which means that 24 bits are used for the network. In CIDR notation this is designated by a /24 following the IP address.
-- To change netmask in Linux:
-- To specify a subnet mask for an interface, enter the following command: ifconfig interface_name netmask mask.**
-- To change the subnet mask for an interface that has been configured with a primary and an alias address, enter the following command for each IP address: ifconfig interface_name IP address netmask mask
+- To change netmask in Linux: To specify a subnet mask for an interface, enter the following command: ifconfig interface_name netmask mask. To change the subnet mask for an interface that has been configured with a primary and an alias address, enter the following command for each IP address: ifconfig interface_name IP address netmask mask
 
 ## SMB Analysis
 - **enum4linux**
@@ -202,7 +200,15 @@
 - **sqlmap**
 
 # 4.Database Assessment
+
+<p align="center">
+  <img src="https://www.kali.org/tools/sqlitebrowser/images/sqlitebrowser-logo.svg" width="250" alt="SQLitedatabasebrowser"/> <br/>
+</p>
+
 ## SQLite database browser
+- SQLite Database Browser is a visual tool used to create, design and edit database files compatible with SQLite.
+- Its interface is based on QT, and is meant to be used for users and developers that want to create databases, edit and search data using a familiar spreadsheet-like interface, without the need to learn complicated SQL commands.
+- Its interface is based on QT, and is meant to be used for users and developers that want to create databases, edit and search data using a familiar spreadsheet-like interface, without the need to learn complicated SQL commands.
 
 # 5.Password Attacks
 ## offline Attacks
@@ -275,32 +281,80 @@
 ## binwalk
 ## bulk_extractor
 ## hashdeep
+
 ## Forensic Carving Tools
-- **magicresue**
-- **scalpel**
-- **scrounge-ntfs**
+### magicresue
+### scalpel
+### scrounge-ntfs
+
 ## Forensic Imaging Tools
-- **guymanager(root)**
+### guymanager(root)
 ## PDF Forensics Tools
-- **pdfid**
-- **pdf-parser**
+### pdfid
+### pdf-parser
+
 ## Sleuth Kit Suite
-- **autopsy(root)**
-- **hfind**
-- **img_Cat**
+### autopsy(root)
+### hfind
+### img_Cat
 
 # 12.Reporting Tools
+
+<p align="center">
+  <img src="https://www.kali.org/tools/cutycapt/images/cutycapt-logo.svg" width="250" alt="cutycapt"/> <br/>
+</p>
+
 ## cutycapt
+- CutyCapt is a small cross-platform command-line utility to capture WebKit's rendering of a web page into a variety of vector and bitmap formats, including SVG, PDF, PS, PNG, JPEG, TIFF, GIF, and BMP.
+- cannot use CutyCapt without an X server, but you can use e.g. Xvfb as light-weight server if you are not running an interactive graphical desktop environment.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/python-faraday/images/python-faraday-logo.svg" width="250" alt="faraday start"/> <br/>
+</p>
+
 ## faraday start
+- Faraday IDE is another tool built to support collaboration while utilizing approximately 40 built-in tools for generating reports.
+- Faraday is a GUI application that consists of a ZSH terminal and a sidebar with details about our workspaces and hosts.
+- When Faraday supports the command you are running, it will automatically detect it and import the results.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/pipal/images/pipal-logo.svg" width="250" 
+       alt="pipal"/> <br/>
+</p>
+
 ## pipal
+- This tool does is to give you the stats and the information to help you analyse the passwords.
+-  The real work is done by you in interpreting the results.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/recordmydesktop/images/recordmydesktop-logo.svg" width="250" alt="recordmydesktop"/> <br/>
+</p>
+
 ## recordmydesktop
+- The application produces an ogg-encapsulated theora-vorbis file.
+-  recordMyDesktop tries to be as unobstrusive as possible by proccessing only regions of the screen that have changed.
+
 
 # 13.Social Engineering Tools
+
+<p align="center">
+  <img src="https://www.kali.org/tools/msfpc/images/msfpc-logo.svg" width="250" 
+       alt="MPC"/> <br/>
+</p>
+
 ## msf payload creator
+- MSFvenom Payload Creator (MSFPC) is a wrapper to generate multiple types of payloads, based on the user's choice. The idea is to be as simple as possible (only requiring one input) to produce their payload. 
+- list payloads with the loadpath command
+- The only necessary input from the user should be defining the payload they want by either the platform (e.g. windows), or the file extension they wish the payload to have (e.g. exe).
+
+<p align="center">
+  <img src="https://www.kali.org/tools/set/images/set-logo.svg" width="250" 
+       alt="SET"/> <br/>
+</p>
+
 ## social engineering toolkit (root)
-
-
-
+- The Social-Engineer Toolkit (SET) is an open-source penetration testing framework designed for social engineering. 
+- SET has a number of custom attack vectors that allow you to make a believable attack in a fraction of time. These kind of tools use human behaviors to trick them to the attack vectors.
 
 
 

@@ -49,3 +49,17 @@
 ### nmap
 ### recon-ng
 ### spiderfoot
+# 2. Vulnerability Analysis
+## Fuzzing Tools
+### SPIKE
+## VoIP Tools
+### voiphopper
+## legion
+## nikto
+## nmap
+## unix-prives-check
+# 3.Web Application Analysis
+
+
+
+

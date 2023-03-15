@@ -10,55 +10,80 @@
 # 1.Information Gathering 
 
 ## DNS Analysis
-### dnsenum
-### dnsrecon
-### fierce
+- **dnsenum**
+- **dnsrecon**
+- **fierce**
 ## IDS/IPS identification
-### lbd
-### wafw00f
+- **lbd**
+- **wafw00f**
 ## Live Host Identification
-### arping
-### fping
-### hping3
-### masscan
-### thcping6
+- **arping**
+- **fping**
+- **hping3**
 ## Network & Port Scanners
-### masscan
-### nmap
+- **masscan**
+- **nmap**
 ## OSINT Analysis
-### spiderfoot
-### spiderfoot-cli
-### theharvester
+- **spiderfoot**
+- **spiderfoot-cli**
+- **theharvester**
 ## Route Analysis
-### netdiscover
-### netmask
+- **netdiscover**
+- **netmask**
 ## SMB Analysis
-### enum4linux
-### nbtscan
-### smbmap
+- **enum4linux**
+- **nbtscan**
+- **smbmap**
 ## SMTP Analysis
-### swaks
+- **swaks**
 ## SNMP Analysis
-### 161 onesixtyone
-### snamp-check
+- **61 onesixtyone**
+- **snamp-check**
 ## SSL Analysis
-### dmitry
-### like-scan
-### legion(root)
-### netdiscover
-### nmap
-### recon-ng
-### spiderfoot
+- **dmitry**
+- **netdiscover**
+- **spiderfoot**
 # 2. Vulnerability Analysis
 ## Fuzzing Tools
-### SPIKE
+- **SPIKE**
 ## VoIP Tools
-### voiphopper
+- **voiphopper**
 ## legion
 ## nikto
 ## nmap
 ## unix-prives-check
 # 3.Web Application Analysis
+## CMS & Framework Identification
+- **wpscan**
+## Web Application Proxies
+- **burpsuite**
+- **cutycapt**
+- **dirb**
+## Web Vulnerability Scanners
+- **commix**
+- **skipfish**
+- **sqlmap**
+# 4.Database Assessment
+# SQLite database browser
+# 5.Password Attacks
+## offline Attacks
+- **hashcat**
+- **hashid**
+- **ophcrack-cli**
+## Online Attack
+- **hydra**
+- **patator**
+- **thc-pptp-bruter**
+## Passinth the Hash Tools
+- **mimikatz**
+- **smbmap**
+## Password Profiling & Wordlists
+- **cewl**
+- **john**
+- **ophcrack**
+# 6.Wireless Attacks
+
+
 
 
 

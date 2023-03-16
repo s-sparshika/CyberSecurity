@@ -822,7 +822,7 @@ Cracking: Various security standards like WEP or WPA PSK
 - Usage and audience. The Sleuth Kit is commonly used for criminal investigations, digital forensics, or file system analysis. Target users for this tool are forensic specialists and security professionals.
 
 <p align="center">
-  <img src="" width="250" alt="        "/> <br/>
+  <img src="https://www.kali.org/tools/autopsy/images/autopsy-logo.svg" width="250" alt=" autopsy"/> <br/>
 </p>
 
 ### autopsy(root)
@@ -832,10 +832,6 @@ Cracking: Various security standards like WEP or WPA PSK
 Medico-Legal Autopsy or Forensicorcoroner's autopsies.
 Anatomicaloracademic autopsies.
 Clinical or Pathological autopsies.
-
-<p align="center">
-  <img src="" width="250" alt="        "/> <br/>
-</p>
 
 # 12.Reporting Tools
 

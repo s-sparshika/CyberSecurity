@@ -289,6 +289,7 @@
 - It can even be run as a cron job so you can check regularly for misconfigurations that might be introduced.
 
 # 3.Web Application Analysis
+
 ## CMS & Framework Identification
 
 <p align="center">
@@ -304,41 +305,58 @@
 ## Web Application Proxies
 
 <p align="center">
-  <img src="" width="250" alt="        "/> <br/>
+  <img src="https://www.kali.org/tools/burpsuite/images/burpsuite-logo.svg" width="250" alt="burpsuite"/> <br/>
 </p>
 
 ### burpsuite
+- Burp Suite is a fully featured web application attack tool: it does almost anything that you could ever want to do when penetration testing a web application.
+- Burp Suite is an integrated platform for performing security testing of web applications. Its various tools work seamlessly together to support the entire testing process, from initial mapping and analysis of an application's attack surface, through to finding and exploiting security vulnerabilities.
+- We can tweak the raw HTTP in various ways before forwarding the request on to the web server.
+-  The goal with the Burp intercepting proxy feature is to tweak requests so they still follow the rules of HTTP, but can make the application act unexpectedly.
 
 <p align="center">
-  <img src="" width="250" alt="        "/> <br/>
-</p>
-
-### cutycapt
-
-<p align="center">
-  <img src="" width="250" alt="        "/> <br/>
+  <img src="https://www.kali.org/tools/dirb/images/dirb-logo.svg" width="250" 
+       alt="dirb"/> <br/>
 </p>
 
 ### dirb
+- DIRB is a Web Content Scanner. It looks for existing (and/or hidden) Web Objects. 
+- Works by launching a dictionary based attack against a web server and analyzing the responses. DIRB comes with a set of preconfigured attack wordlists for easy usage but you can use your custom wordlists.
+- DIRB can recursively scan directories and look for files with different extensions in a web server.
+- It can automatically detect the Not Found code when it's not the standard 404. It can then export the results to a text file, use session cookies in case the server requires having a valid session, and conduct basic HTTP authentication and upstream proxy among other features.
+
 ## Web Vulnerability Scanners
 
 <p align="center">
-  <img src="" width="250" alt="        "/> <br/>
+  <img src="https://www.kali.org/tools/commix/images/commix-logo.svg" width="250" 
+       alt="commix"/> <br/>
 </p>
 
 ### commix
+- Command injection exploiter (commix) is an automated tool written in Python that is pre-compiled in Kali Linux to perform various OS commands if the application is vulnerable to command injection. 
+- It allows attackers to inject into any specific vulnerable parts of the application, or even into an HTTP header.
+- It has a simple and it can be used, from web developers, penetration testers or even security researchers to test web applications with the view to find bugs, errors or vulnerabilities related to command injection attacks.
 
 <p align="center">
-  <img src="" width="250" alt="        "/> <br/>
+  <img src="https://www.kali.org/tools/skipfish/images/skipfish-logo.svg" width="250" alt="skipfish"/> <br/>
 </p>
 
 ### skipfish
+- Skipfish is an active web application security reconnaissance tool.
+- It prepares an interactive sitemap for the targeted site by carrying out a recursive crawl and dictionary-based probes.
+- The resulting map is then annotated with the output from a number of active security checks.
+- This tool is meant to provide accurate and meaningful results. Three-step differential probes are preferred to signature checks for detecting vulnerabilities.
 
 <p align="center">
-  <img src="" width="250" alt="        "/> <br/>
+  <img src="https://www.kali.org/tools/sqlmap/images/sqlmap-logo.svg" width="250" 
+       alt="sqlmap"/> <br/>
 </p>
 
 ### sqlmap
+- sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
+- SQLMap is a tool used for the automated exploitation of SQL injection vulnerabilities.
+- We can use SQLMap to test websites and databases for vulnerabilities and exploit those vulnerabilities to take over the database. 
+- To use SQLMap, we first need to identify a website or database that is vulnerable to SQL injection 
 
 # 4.Database Assessment
 
@@ -353,20 +371,78 @@
 
 # 5.Password Attacks
 ## offline Attacks
-- **hashcat**
-- **hashid**
-- **ophcrack-cli**
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### hashcat
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### hashid
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### ophcrack-cli
+
 ## Online Attack
-- **hydra**
-- **patator**
-- **thc-pptp-bruter**
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### hydra
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### patator
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### thc-pptp-bruter
+
 ## Passinth the Hash Tools
-- **mimikatz**
-- **smbmap**
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### mimikatz
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### smbmap
+
 ## Password Profiling & Wordlists
-- **cewl**
-- **john**
-- **ophcrack**
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### cewl
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### john
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### ophcrack
 
 
 # 6.Wireless Attacks

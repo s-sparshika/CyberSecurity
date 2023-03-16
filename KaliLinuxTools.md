@@ -233,24 +233,112 @@
 
 # 2. Vulnerability Analysis
 ## Fuzzing Tools
-- **SPIKE**
+
+<p align="center">
+  <img src="https://www.kali.org/tools/spike/images/spike-logo.svg" width="250"
+       alt="SPIKE"/> <br/>
+</p>
+
+### SPIKE
+- When we need to analyze a new network protocol for buffer overflows or similar weaknesses, the SPIKE is the tool of choice for professionals.
+- A spike, a term often used in SAFe, scrum and other agile frameworks, is a task designed to answer a question or gather information, rather than produce a product.
+- Their purpose is to gain the knowledge necessary to reduce the risk of a technical approach, better understand a requirement, or increase the reliability of a story estimate. 
+- spikes are estimated and then demonstrated at the end of the Iteration.
+
 ## VoIP Tools
-- **voiphopper**
+
+<p align="center">
+  <img src="https://www.kali.org/tools/voiphopper/images/voiphopper-logo.svg" width="250" alt="voiphopper "/> <br/>
+</p>
+
+### voiphopper
+- VoIP Hopper is a GPLv3 licensed security tool, written in C that rapidly runs a VLAN Hop security test.
+-  VoIP Hopper is a VoIP infrastructure security testing tool but also a tool that can be used to test the (in)security of VLANs. 
+-  VoIP Hopper is a network infrastructure penetration testing tool to test the (in)security of VLANS as well as mimic the behavior of IP Phones to automatically VLAN Hop and demonstrate risks within IP Telephony network infrastructures..
+
+<p align="center">
+  <img src="https://www.kali.org/tools/legion/images/legion-logo.svg" width="250" 
+       alt="legion"/> <br/>
+</p>
+
 ## legion
+- Legion, a fork of SECFORCE's Sparta, is an open source, easy-to-use, super-extensible, and semi-automated network penetration testing framework that aids in discovery, reconnaissance, and exploitation of information systems.
+- Legion, a fork of SECFORCE's Sparta, is an open source, easy-to-use, super-extensible, and semi-automated network penetration testing framework that aids in discovery, reconnaissance, and exploitation of information systems.
+- It has the feature of real-time auto-saving of project results and tasks.
+- Modular functionality of Legion Tool allows users to easily customize Legion.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/nikto/images/nikto-logo.svg" width="250" 
+       alt="nikto"/> <br/>
+</p>
+
 ## nikto
+- - Nikto is a free software command-line vulnerability scanner that scans webservers for dangerous files/CGIs, outdated server software and other problems. 
+- It performs generic and server type specific checks.
+- Nikto is a pluggable web server and CGI scanner written in Perl, using rfp's LibWhisker to perform fast security or informational checks. Features: Easily updatable CSV-format checks database.
+- Output reports in plain text or HTML. Available HTTP versions automatic switching.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/unix-privesc-check/images/unix-privesc-check-logo.svg" width="250" alt="unix-prives-check"/> <br/>
+</p>
+
 ## unix-prives-check
+- Unix-privesc-checker is a script that runs on Unix systems.
+- It tries to find misconfigurations that could allow local unprivilged users to escalate privileges to other users or to access local apps (e.g. databases).
+- It’s intended to be run by security auditors and pentetration testers against systems they have been engaged to assess, and also by system admnisitrators who want to check for “obvious” misconfigurations. 
+- It can even be run as a cron job so you can check regularly for misconfigurations that might be introduced.
 
 # 3.Web Application Analysis
 ## CMS & Framework Identification
-- **wpscan**
+
+<p align="center">
+  <img src="https://www.kali.org/tools/wpscan/images/wpscan-logo.svg" width="250" 
+       alt="wpscan"/> <br/>
+</p>
+
+### wpscan
+- WPScan scans remote WordPress installations to find security issues.
+- Wpscan is a vulnerability scanning tool, which comes pre-installed in Kali Linux. This scanner tool scans for vulnerabilities in websites that run WordPress web engines.
+- The wpscan tool itself isn't a malicious tool, as it is only for reconnaissance against a particular site.
+
 ## Web Application Proxies
-- **burpsuite**
-- **cutycapt**
-- **dirb**
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### burpsuite
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### cutycapt
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### dirb
 ## Web Vulnerability Scanners
-- **commix**
-- **skipfish**
-- **sqlmap**
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### commix
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### skipfish
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
+### sqlmap
 
 # 4.Database Assessment
 

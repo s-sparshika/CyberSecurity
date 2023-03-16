@@ -475,7 +475,7 @@ Hybrid attack
 ## 802.11 Wireless Tools
 
 <p align="center">
-  <img src="" width="250" alt="        "/> <br/>
+  <img src="https://www.kali.org/tools/bully/images/bully-logo.svg" width="250" alt="bully"/> <br/>
 </p>
 
 ### bully
@@ -484,30 +484,53 @@ Hybrid attack
 - You can take a look at Brute Force Attack Against WPS – Reaver, to see its features and compare them to the Bully.
 
 <p align="center">
-  <img src="" width="250" alt="        "/> <br/>
+  <img src="https://www.kali.org/tools/fern-wifi-cracker/images/fern-wifi-cracker-logo.svg" width="250" alt="fern wifi cracker"/> <br/>
 </p>
 
 ### fern wifi cracker (root)
+- Fern WiFi cracker, The name says about it. It's a GUI based WiFi security auditing tool that written on Python. 
+- Fern WiFi cracker can crack and recover WEP/WPA/WPS keys and also run other network based attacks on wireless or Ethernet based networks. 
+- Fern created by Saviour Emmanuel Ekiko.
 
 ## Bluetooth Tools
 
 <p align="center">
-  <img src="" width="250" alt="        "/> <br/>
+  <img src="https://www.kali.org/tools/aircrack-ng/images/aircrack-ng-logo.svg" width="250" alt="aircrack"/> <br/>
 </p>
 
 ### aircrack-ng
+- Aircrack-ng is a tool that comes pre-installed in Kali Linux and is used for wifi network security and hacking. 
+- Aircrack is an all in one packet sniffer, WEP and WPA/WPA2 cracker, analyzing tool and a hash capturing tool. It helps in capturing the package and reading the hashes out of them and even cracking those hashes by various attacks like dictionary attacks. 
+- It supports almost all the latest wireless interfaces. 
+- It mainly focuses on 4 areas:
+Monitoring: Captures cap, packet, or hash files.
+Attacking: Performs deauthentication or creates fake access points
+Testing: Checking the wifi cards or driver capabilities
+Cracking: Various security standards like WEP or WPA PSK
 
 <p align="center">
-  <img src="" width="250" alt="        "/> <br/>
+  <img src="https://www.kali.org/tools/kismet/images/kismet-logo.svg" width="250" 
+       alt="kismet"/> <br/>
 </p>
 
 ### kismet
+- Kismet is a wireless network and device detector, sniffer, wardriving tool, and WIDS (wireless intrusion detection) framework.
+- Kismet works with Wi-Fi interfaces, Bluetooth interfaces, some SDR (software defined radio) hardware like the RTLSDR, and other specialized capture hardware.
+- It is most often used for its “RFMON” or ”radio frequency monitoring” mode. 
+- Kismet's ability to facilitate RFMON means that a user is able to monitor traffic and identify wireless networks without having to associate with an access point, which is common for Wireshark, NetScout or Aircrack packet-sniffing tools.
 
 <p align="center">
-  <img src="" width="250" alt="        "/> <br/>
+  <img src="https://www.kali.org/tools/reaver/images/reaver-logo.svg" width="250" 
+       alt="reaver"/> <br/>
 </p>
 
 ### reaver
+- Reaver performs a brute force attack against an access point's WiFi Protected Setup pin number. 
+- Once the WPS pin is found, the WPA PSK can be recovered and alternately the AP's wireless settings can be reconfigured.
+- The Reaver is a large, long, heavy hybrid of a dane axe and a scythe with a foldable blade, which will fold out when the user performs a certain attack.
+- It functions like the Two-handed Weapons, albeit with some difference. The Reaver is used by the mini-boss Shroud and a Looter from the Factory.
+
+
 
 # 7.Reverse Engineering
 
@@ -552,7 +575,6 @@ Hybrid attack
 - This package is a swiss army knife for pentesting Windows/Active Directory environments. From enumerating logged on users and spidering SMB shares to executing psexec style attacks, auto-injecting Mimikatz/Shellcode/DLL's into memory using Powershell, dumping the NTDS. dit and more.
 - CrackMapExec is an open-source tool that leverages Mimikatz to enable adversaries to harvest credentials and move laterally through an Active Directory environment. This blog post details how this tool works and offers a solution for defending against it.
 - CME makes heavy use of the Impacket library and PowerSploit for working with network protocols and performing a variety of post-exploitation techniques.
-
 
 # 9.Sniffing & Spoofing
 ## ettercap-graphical

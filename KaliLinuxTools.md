@@ -184,7 +184,6 @@
 - **voiphopper**
 ## legion
 ## nikto
-## nmap
 ## unix-prives-check
 
 # 3.Web Application Analysis
@@ -238,14 +237,49 @@
 - **reaver**
 
 # 7.Reverse Engineering
-- **clang**
-- **NASM shell**
-- **radare2**
+
+<p align="center">
+  <img src="https://www.kali.org/images/kali-tools-icon-missing.svg" width="250" 
+       alt="clang"/> <br/>
+</p>
+
+### clang
+- Clang project is a C, C++, Objective C and Objective C++ front-end for the LLVM compiler.
+-  Its goal is to offer a replacement to the GNU Compiler Collection (GCC).
+-  Clang tool is a front end compiler that is used to compile programming languages such as C++, C, Objective C++ and Objective C into machine code. Clang is also used as a compiler for frameworks like OpenMP, OpenCL, RenderScript, CUDA and HIP.
+
+
+<p align="center">
+  <img src="https://www.kali.org/tools/metasploit-framework/images/metasploit-framework-logo.svg" width="250" alt="NASM shell"/> <br/>
+</p>
+
+### NASM shell
+- Metasploit provides a great utility for writing short assembly codes using the NASM shell. 
+- The generate_seh_record() method created an SEH frame automatically and used a small assembly code in the previous section; \xeb\x0a, which denoted a short jump of 12 bytes.
+- However, in case of generation of a manual SEH record, instead of searching the internet for op codes, we can use the NASM shell to write assembly codes with ease.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/radare2/images/radare2-logo.svg" width="250" alt="radare2"/> <br/>
+</p>
+
+### radare2
+- Radare2 (also known as r2) is a complete framework for reverse-engineering and analyzing binaries; composed of a set of small utilities that can be used together or independently from the command line.
+- It is composed by an hexadecimal editor (radare) with a wrapped IO layer supporting multiple backends for local/remote files, debugger , stream analyzer, assembler/disassembler (rasm) for x86, ARM, PPC, m68k, Java, MSIL, SPARC, code analysis modules and scripting facilities.
+- Radare2 is an open-source framework for reverse engineering and binaries analysis that implements a rich command-line interface for disassembling, analyzing data, patching binaries, comparing data, searching, replacing, visualizing, and more. 
+- It has great scripting capabilities, it runs on all major platforms.
 
 # 8.Exploitation Tools
-- **crackemapexec**
-- **metasploit framework**
-- **msf payload creator**
+
+<p align="center">
+  <img src="https://www.kali.org/tools/crackmapexec/images/crackmapexec-logo.svg" width="250" alt="crackemapexec"/> <br/>
+</p>
+
+## crackemapexec
+- CrackMapExec (CME) is another post-exploitation tool that helps automate assessing the security of large Active Directory networks.
+- This package is a swiss army knife for pentesting Windows/Active Directory environments. From enumerating logged on users and spidering SMB shares to executing psexec style attacks, auto-injecting Mimikatz/Shellcode/DLL's into memory using Powershell, dumping the NTDS. dit and more.
+- CrackMapExec is an open-source tool that leverages Mimikatz to enable adversaries to harvest credentials and move laterally through an Active Directory environment. This blog post details how this tool works and offers a solution for defending against it.
+- CME makes heavy use of the Impacket library and PowerSploit for working with network protocols and performing a variety of post-exploitation techniques.
+
 
 # 9.Sniffing & Spoofing
 ## ettercap-graphical
@@ -278,24 +312,116 @@
 - **weevely**
 
 # 11.Forensics
+
+<p align="center">
+  <img src="https://www.kali.org/tools/binwalk/images/binwalk-logo.svg" width="250" alt="binwalk"/> <br/>
+</p>
+
 ## binwalk
+- Binwalk is a tool for searching a given binary image for embedded files and executable code. Specifically, it is designed for identifying files and code embedded inside of firmware images. 
+- Binwalk uses the libmagic library, so it is compatible with magic signatures created for the Unix file utility.
+- Binwalk is a popular command-line tool in Linux that is used for analyzing, reverse engineering, and extracting firmware images.
+- Binwalk also includes a custom magic signature file which contains improved signatures for files that are commonly found in firmware images such as compressed/archived files, firmware headers, Linux kernels, bootloaders, filesystems, etc.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/bulk-extractor/images/bulk-extractor-logo.svg" width="250" alt="bulk_extractor"/> <br/>
+</p>
+
 ## bulk_extractor
+- bulk_extractor is a C++ program that scans a disk image, a file, or a directory of files and extracts useful information without parsing the file system or file system structures. The results are stored in feature files that can be easily inspected, parsed, or processed with automated tools.
+- The syntax for using bulk_extractor is quite simple and requires that an output folder (-o) and the forensic image be specified.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/hashdeep/images/hashdeep-logo.svg" width="250" alt="hashdeep"/> <br/>
+</p>
+
 ## hashdeep
+- hashdeep is a set of tools to compute MD5, SHA1, SHA256, tiger and whirlpool hashsums of arbitrary number of files recursively.
+- Hashdeep is a program for recursively computing hashes with multiple algorithms simultaneously. 
+- It can also perform matching operations like the md5deep family of programs, but in a more powerful way. 
+- Hashdeep can perform an audit of hashes against a set of known hashess.
 
 ## Forensic Carving Tools
+
+<p align="center">
+  <img src="https://www.kali.org/tools/magicrescue/images/magicrescue-logo.svg" width="250" alt="magicresue"/> <br/>
+</p>
+
 ### magicresue
+- MagicTree is a data management and reporting tool similar to Dradis. 
+- Magic Rescue scans a block device for file types it knows how to recover and calls an external program to extract them. 
+- It looks at “magic bytes” (file patterns) in file contents, so it can be used both as an undelete utility and for recovering a corrupted drive or partition.
+- It is preinstalled on Linux and it organizes everything using a tree and node structure. It also allows us to execute commands and export the results as a report.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/scalpel/images/scalpel-logo.svg" width="250" alt="scalpal"/> <br/>
+</p>
+
 ### scalpel
+- Is a fast file carver that reads a database of header and footer definitions and extracts matching files from a set of image files or raw device files.
+- Once we have made our changes to include file types and saved the scalpel.conf file, we can then start Scalpel by clicking on the Show Applications button on the sidebar and enter scalpel into the search box which then appears at the top of the screen. 
+- Once started, a Terminal opens showing the version number (1.60), the author (Golden G. Richard III), and as mentioned, states that it is based on Foremost 0.69. As seen with Foremost, Scalpel-usage syntax and additional options are also displayed
+
+<p align="center">
+  <img src="https://www.kali.org/tools/scrounge-ntfs/images/scrounge-ntfs-logo.svg" width="250" alt="scrounge-ntfs"/> <br/>
+</p>
+
 ### scrounge-ntfs
+- Scrounge NTFS is a data recovery program for NTFS filesystems. It reads each block of the hard disk and try to rebuild the original filesystem tree into a directory.
+- This package is useful in forensics investigations.
+- We can shrink an NTFS partition, first use ntfsresize to shrink the size of the filesystem. Then you could use fdisk(8) to shrink the size of the partition by deleting the partition and recreating it with the smaller size.
+- linux will 100% corrupt our NTFS partition sooner or later.
 
 ## Forensic Imaging Tools
+
+<p align="center">
+  <img src="https://www.kali.org/tools/guymager/images/guymager-logo.svg" width="250" alt=" guymanager"/> <br/>
+</p>
+
 ### guymanager(root)
+- Guymager is another standalone acquisition tool that can be used for creating forensic images and also performing disk cloning.
+- 
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
 ## PDF Forensics Tools
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
 ### pdfid
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
 ### pdf-parser
 
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
 ## Sleuth Kit Suite
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
 ### autopsy(root)
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
 ### hfind
+
+<p align="center">
+  <img src="" width="250" alt="        "/> <br/>
+</p>
+
 ### img_Cat
 
 # 12.Reporting Tools

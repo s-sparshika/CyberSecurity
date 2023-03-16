@@ -472,6 +472,7 @@ Hybrid attack
 - John the Ripper cracks passwords. During the cracking process, John the Ripper uses a rainbow table approach where it takes words from an in-built dictionary that comes with it. It then compiles the variations of that dictionary and compares the hashed password to what is in the password file trying to find a match.
 
 # 6.Wireless Attacks
+
 ## 802.11 Wireless Tools
 
 <p align="center">
@@ -578,33 +579,142 @@ Cracking: Various security standards like WEP or WPA PSK
 
 # 9.Sniffing & Spoofing
 ## ettercap-graphical
+
+<p align="center">
+  <img src="https://www.kali.org/tools/minicom/images/minicom-logo.svg" width="250" alt="minicom"/> <br/>
+</p>
+
 ## minicom
+- Minicom is a text-based serial port communications program. It is used to talk to external RS-232 devices such as mobile phones, routers, and serial console ports
+- A common use for Minicom is when setting up a remote serial console, perhaps as a last resort to access a computer if the LAN is down. 
+- This can be done using nothing more than a 386 laptop with a Minicom floppy distribution such as Pitux or Serial Terminal Linux.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/macchanger/images/macchanger-logo.svg" width="250" alt="macchanger"/> <br/>
+</p>
+
 ## macchanger
-## mitmproxy
+- Changing the assigned MAC address may allow the user to bypass access control lists on servers or routers, either hiding a computer on a network or allowing it to impersonate another network device. 
+- It may also allow the user to bypass MAC address blacklisting to regain access to a Wi-Fi network.
+- To change mac in kali linux : 
+1 set specific MAC address of a network interface.
+2 set the MAC randomly.
+3 set a MAC of another vendor.
+4 set another MAC of the same vendor.
+5 set a MAC of the same kind (eg: wireless card)
+6 display a vendor MAC list (today, 6200 items) to choose from.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/responder/images/responder-logo.svg" width="250" alt="responder"/> <br/>
+</p>
+
 ## responder
+- Responder is an inbuilt Kali Linux tool for Link-Local Multicast Name Resolution (LLMNR) and NetBIOS Name Service (NBT-NS) that responds to specific NetBIOS queries based on the file server request.
+-Ex: If a target sends out an LLMNR request looking for a resource, the Responder tool will send a response to the server directing all traffic to the malicious user.
+- A response file is an XML file that contains data required to complete installation operations silently.
+
 ## Network Sniffers
-- **dnschef**
-- **netsniff-ng**
+
+<p align="center">
+  <img src="https://www.kali.org/tools/dnschef/images/dnschef-logo.svg" width="250" alt="dnschef"/> <br/>
+</p>
+
+### dnschef
+- DNSChef is a highly configurable DNS proxy for Penetration Testers and Malware Analysts.
+- A DNS proxy (aka “Fake DNS”) is a tool used for application network traffic analysis among other uses.
+
 ## Spoofing & MITM
-- **rebind**
-- **sslsplit**
-- **tcpreplay**
+
+<p align="center">
+  <img src="https://www.kali.org/tools/rebind/images/rebind-logo.svg" width="250" 
+       alt="rebind"/> <br/>
+</p>
+
+### rebind
+- Rebind is a tool that implements the multiple A record DNS rebinding attack. 
+- Used to target any public (non RFC1918) IP address. 
+- Rebind provides an external attacker access to a target router's internal Web interface.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/tcpreplay/images/tcpreplay-logo.svg" width="250" alt="tcpreply"/> <br/>
+</p>
+
+### tcpreplay
+- The basic operation of tcpreplay is to resend all packets from the input file at the speed at which they were recorded, or a specified data rate, up to as fast as the hardware is capable.
+- Tcpreplay is a suite of free Open Source utilities for editing and replaying previously captured network traffic. 
+- Designed to replay malicious traffic patterns to Intrusion Detection/Prevention Systems, it has seen many evolutions including capabilities to replay to web servers.
 
 # 10.Post Exploitation
-## mimikatz
+
+<p align="center">
+  <img src="https://www.kali.org/tools/evil-winrm/images/evil-winrm-logo.svg" width="250" alt="evil-winrm"/> <br/>
+</p>
+
 ## evil-winrm
+- The purpose of this program is to provide nice and easy-to-use features for hacking. 
+- It can be used with legitimate purposes by system administrators as well but the most of its features are focused on hacking/pentesting stuff.
+- Common use cases for WinRM include remotely managing multiple Windows computers, automating administrative tasks, and executing scripts on remote computers.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/exe2hexbat/images/exe2hexbat-logo.svg" width="250" alt="exe2hex"/> <br/>
+</p>
+
 ## exe2hex
+- Exe2hex is a tool developed by g0tmilk which can be found here. The tool transcribes EXE into a series of hexadecimal strings which can be restored into the original EXE file by using DEBUG.exe or Powershell. 
+- This script can then be executed at the victim machine to construct an exe again and execute it
+- A Python script to convert a Windows PE executable file to a batch file and vice versa.
+
 ## OS Backdoor
-- **dbd**
-- **powersploit**
-- **sbd**
-## Tunneling & Exfiltration
-- **proxychains4**
-- **miredo**
-- **stunnel4**
-## Web Backdoors
-- **laudanum**
-- **weevely**
+
+<p align="center">
+  <img src="https://www.kali.org/tools/dbd/images/dbd-logo.svg" width="250" 
+       alt="dbd"/> <br/>
+</p>
+
+### dbd
+- dbd is a Netcat-clone, designed to be portable and offer strong encryption. 
+- It runs on Unix-like operating systems and on Microsoft Win32.
+- dbd is a Netcat-clone, designed to be portable and offer strong encryption.
+- dbd features AES-CBC-128 + HMAC-SHA1 encryption , program execution , choosing source port, continuous reconnection with delay, and some other nice features. 
+- dbd supports TCP/IP communication only. Source code and binaries are distributed under the GNU General Public License.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/powersploit/images/powersploit-logo.svg" width="250" alt="powersploit"/> <br/>
+</p>
+
+### powersploit
+- PowerSploit is a series of Microsoft PowerShell scripts that can be used in post-exploitation scenarios during authorized penetration tests.
+- It being an open source, its used in offensive security framework comprised of PowerShell modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/sbd/images/sbd-logo.svg" width="250" 
+       alt="sbd"/> <br/>
+</p>
+
+### sbd
+- sbd is a Netcat-clone, designed to be portable and offer strong encryption. It runs on Unix-like operating systems and on Microsoft Win32.
+- With cryptcat, encryption is enabled by default, even if you do not specify a shared secret key. 
+- SBD takes the same approach except encryption can be disabled completely via the –c option 
+
+<p align="center">
+  <img src="https://www.kali.org/tools/miredo/images/miredo-logo.svg" width="250" alt="miredo"/> <br/>
+</p>
+
+### miredo
+- Miredo is an open-source Teredo IPv6 tunneling software, for Linux and the BSD operating systems. 
+- It includes functional implementations of all components of the Teredo specification. 
+- It is meant to provide IPv6 connectivity even from behind NAT devices.
+ 
+
+<p align="center">
+  <img src="https://www.kali.org/tools/stunnel4/images/stunnel4-logo.svg" width="250" alt="stunnel"/> <br/>
+</p>
+
+### stunnel4
+- The stunnel program is an encryption wrapper between a client and a server. 
+- Listens on the port specified in its configuration file, encrypts the communitation with the client, and forwards the data to the original daemon listening on its usual port.
+- One good use of stunnel is to encrypt connection between browser and proxy server as browsers do not support SSL HTTP proxy servers yet. Example of this use case is explained at Using encrypted channels to communicate with squid proxy server.
+
 
 # 11.Forensics
 

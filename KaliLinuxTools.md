@@ -164,18 +164,72 @@
 - To change netmask in Linux: To specify a subnet mask for an interface, enter the following command: ifconfig interface_name netmask mask. To change the subnet mask for an interface that has been configured with a primary and an alias address, enter the following command for each IP address: ifconfig interface_name IP address netmask mask
 
 ## SMB Analysis
-- **enum4linux**
-- **nbtscan**
-- **smbmap**
+
+<p align="center">
+  <img src="https://www.kali.org/tools/enum4linux/images/enum4linux-logo.svg" width="250" alt="enum4"/> <br/>
+</p>
+
+### enum4linux
+- Enum4linux is a tool for enumerating information from Windows and Samba systems. 
+- It attempts to offer similar functionality to enum.exe. It is written in PERL and is basically a wrapper around the Samba tools smbclient, rpclient, net and nmblookup.
+- Enum4linux is an enumeration tool capable of detecting and extracting data from Windows and Linux operating systems, including those that are Samba (SMB) hosts on a network. 
+- Enum4linux is capable of discovering the following: Password policies on a target. The operating system of a remote target.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/nbtscan/images/nbtscan-logo.svg" width="250" alt="nbtscan"/> <br/>
+</p>
+
+### nbtscan
+- nbtscan - NETBIOS nameserver scanner.
+- NetBIOS is a service that allows for communication over a network and is often used to join a domain and legacy applications.
+-  It is an older technology but still used in some environments today. Since it is an unsecured protocol, it can often be a good starting point when attacking a network.
+
+<p align="center">
+  <img src="https://www.kali.org/tools/smbmap/images/smbmap-logo.svg" width="250" 
+       alt="smbmap"/> <br/>
+</p>
+
+### smbmap
+- Feature description. The Server Message Block (SMB) protocol is a network file sharing protocol that allows applications on a computer to read and write to files and to request services from server programs in a computer network. 
+- The SMB protocol can be used on top of its TCP/IP protocol or other network protocols
+- SMBMap allows users to enumerate samba share drives across an entire domain.
+-  List share drives, drive permissions, share contents, upload/download functionality, file name auto-download pattern matching, and even execute remote commands.
+
 ## SMTP Analysis
-- **swaks**
+
+<p align="center">
+  <img src="https://www.kali.org/tools/swaks/images/swaks-logo.svg" width="250" 
+       alt="swaks"/> <br/>
+</p>
+
+### swaks
+- Options can be given to swaks in three ways. They can be specified in a configuration file, in environment variables, and on the command line.
+- Use Swaks to send emails through the Email Delivery service.
+- Swaks (Swiss Army Knife SMTP) is a transaction-based tool you can use to test SMTP configurations in Email Delivery. Before use Swaks, you must configure Email Delivery and take note of your SMTP sending information and SMTP credentials.
+
 ## SNMP Analysis
-- **61 onesixtyone**
-- **snamp-check**
+
+<p align="center">
+  <img src="https://www.kali.org/tools/onesixtyone/images/onesixtyone-logo.svg" width="250" alt="61 onesixtyone"/> <br/>
+</p>
+
+### 61 onesixtyone
+- onesixtyone is a simple SNMP scanner which sends SNMP requests for the sysDescr value asynchronously with user-adjustable sending times and then logs the responses which gives the description of the software running on the device.
+- Running onesixtyone on a class B network with -w 10 gives a performance of 3 seconds per class C, with no dropped packets, and all 65536 IP addresses were scanned in less than 13 minutes.
+- Fast and simple SNMP scanner.
+
 ## SSL Analysis
-- **dmitry**
-- **netdiscover**
-- **spiderfoot**
+
+<p align="center">
+  <img src="https://www.kali.org/tools/dmitry/images/dmitry-logo.svg" width="250" 
+       alt="dmitry"/> <br/>
+</p>
+
+### dmitry
+- Dmitry stands for DeepMagic Information Gathering Tool. Dmitry is a free and open-source tool that is available on GitHub. We used this tool for information gathering. Dmitry is a command-line tool. 
+- DMitry is a UNIX/(GNU)Linux command line application written in C.
+- DMitry can find possible subdomains, email addresses, uptime information, perform tcp port scan, whois lookups, and more.
+- Dmitry stands for DeepMagic Information Gathering Tool. Dmitry is a free and open-source tool that is available on GitHub. We used this tool for information gathering. Dmitry is a command-line tool. 
 
 # 2. Vulnerability Analysis
 ## Fuzzing Tools
@@ -380,49 +434,57 @@
 
 ### guymanager(root)
 - Guymager is another standalone acquisition tool that can be used for creating forensic images and also performing disk cloning.
-- 
-
-<p align="center">
-  <img src="" width="250" alt="        "/> <br/>
-</p>
+- Guymager is a Qt-based forensic imager. It is capable of producing image files in EWF, AFF and dd format.
+- Image acquisition is a must need process in digital forensic researches.
+- With this process we can clone an entire disk like pen drives or hard disks or memory cards. We can copy a total disk with guymager.
 
 ## PDF Forensics Tools
 
 <p align="center">
-  <img src="" width="250" alt="        "/> <br/>
+  <img src="https://www.kali.org/tools/pdfid/images/pdfid-logo.svg" width="250" 
+       alt="pdfid"/> <br/>
 </p>
 
 ### pdfid
+- This tool is not a PDF parser, but it will scan a file to look for certain PDF keywords, allowing you to identify PDF documents that contain for example JavaScript or execute an action when opened. 
+- PDFiD will also handle name obfuscation.
 
 <p align="center">
-  <img src="" width="250" alt="        "/> <br/>
+  <img src="https://www.kali.org/tools/pdf-parser/images/pdf-parser-logo.svg" width="250" alt="pdf-parser"/> <br/>
 </p>
 
 ### pdf-parser
+- This tool will parse a PDF document to identify the fundamental elements used in the analyzed file. 
+- It will not render a PDF document.
+- A PDF Parser (also sometimes called PDF scraper) is a software that can be used to extract data from PDF documents. 
+- PDF Parsers can come in form of libraries for developers or as standalone software products for end-users. 
+- PDF Parsers are used mainly to extract data from a batch of PDF files.
 
 <p align="center">
-  <img src="" width="250" alt="        "/> <br/>
+  <img src="https://www.kali.org/images/kali-tools-icon-missing.svg" width="250" 
+       alt="Sleuth Kit Suite"/> <br/>
 </p>
 
 ## Sleuth Kit Suite
+- The Sleuth Kit® (TSK) is a library and collection of command line tools that allow you to investigate disk images. 
+- The core functionality of TSK allows you to analyze volume and file system data.
+- Usage and audience. The Sleuth Kit is commonly used for criminal investigations, digital forensics, or file system analysis. Target users for this tool are forensic specialists and security professionals.
 
 <p align="center">
   <img src="" width="250" alt="        "/> <br/>
 </p>
 
 ### autopsy(root)
+- The Autopsy Forensic Browser is a graphical interface to the command line digital forensic analysis tools in The Sleuth Kit.
+-  It is used by law enforcement, military, and corporate examiners to investigate what happened on a computer. You can even use it to recover photos from your camera's memory card.
+- The 3 types of autopsy:
+Medico-Legal Autopsy or Forensicorcoroner's autopsies.
+Anatomicaloracademic autopsies.
+Clinical or Pathological autopsies.
 
 <p align="center">
   <img src="" width="250" alt="        "/> <br/>
 </p>
-
-### hfind
-
-<p align="center">
-  <img src="" width="250" alt="        "/> <br/>
-</p>
-
-### img_Cat
 
 # 12.Reporting Tools
 

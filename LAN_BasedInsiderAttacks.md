@@ -32,8 +32,18 @@
 
 # Perform Denial of Service (DoS) attacks using ARP Cache Poisoning attacks 
 
-![image](https://user-images.githubusercontent.com/68326118/227770231-77ac59f4-109b-4cf2-b2fd-25e8ef0786f4.png)
+### DOS ATTACK:
+- In computing, a denial-of-service attack is a cyber-attack in which the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to a network.
+### What cause DoS attacks?
+- A distributed denial-of-service (DDoS) attack occurs when multiple systems flood the bandwidth or resources of a targeted system, usually one or more web servers. A DDoS attack uses more than one unique IP address or machines, often from thousands of hosts infected with malware.
 
+### The following steps are to be followed to perform this attack
+1. Open ettercap , scan hosts and add the victim's IP address to the target.
+2. Start ARP Poisoning and select DOS attack plugin and enter victim's IP address and fake host IP address
+3. To check the website is accessable or not we will open any site in the victim's machine.
+4. Then we can see that the page does'nt respond .
+( the page appears like tihs)
+![image](https://user-images.githubusercontent.com/68326118/227771153-2b1c763b-fb6e-463d-a6e7-ea3f947546fd.png)
 
 #  Perform DNS Spoofing attack using ARP Cache Poisoning attacks 
 
@@ -55,4 +65,5 @@
 `DNS Spoofed page`
 
 ![image](https://user-images.githubusercontent.com/68326118/227767905-73f6ada5-ba86-40d9-9a61-a9f4ec16ff71.png)
+
 

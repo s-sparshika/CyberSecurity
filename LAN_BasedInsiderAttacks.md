@@ -66,4 +66,16 @@
 
 ![image](https://user-images.githubusercontent.com/68326118/227767905-73f6ada5-ba86-40d9-9a61-a9f4ec16ff71.png)
 
+#  Invoke ‘sslstrip tool’ for stealing passwordsfrom any machine that is connected toa LAN by stripping the HTTPSconnection. 
 
+ - Open ettercap tool , scan the host 
+ - select the vicitms ip and add to target 1 
+ - Start MITM Attacks of ARP Poisoning 
+ - And select the SSLStrip plugin 
+### Here we can see the above output 
+ 
+![image](https://user-images.githubusercontent.com/68326118/227952722-2608aaac-f09f-428e-bafc-312c185c2427.png)
+
+- We can check the ssl striping on the victim's machine 
+
+![image](https://user-images.githubusercontent.com/68326118/227953206-e0ff1f37-edc3-4133-85a8-87b71294d157.png)

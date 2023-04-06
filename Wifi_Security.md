@@ -58,6 +58,9 @@ In summary, Kismet is more of an intrusion detection system that focuses on moni
 ### bssid of all the devices in the range
 ![image](https://user-images.githubusercontent.com/68326118/230278154-626833a7-3e83-45bf-978f-d6f69880eb16.png)
 
+### Devices per channel
+![image](https://user-images.githubusercontent.com/68326118/230282537-3daebb9e-a7f1-49f1-a6ad-0f4d3369b77b.png)
+
 ### Wigle 
 - Here we downloanded an application from the playstore and we can see the information and also the geographical location of a particular ip address.
 

@@ -32,3 +32,17 @@ Each standard is an amendment that was ratified over time. The standards operate
 ## setting up wifi and configuring it to monitor mode 
 
 ![image](https://user-images.githubusercontent.com/68326118/230085018-846fedf7-5883-4968-bb88-e99a0a89f4ed.png)
+
+## Perform Wi-Fi fingerprinting using Wigile, Inssider, and Kismet.
+
+### Kismet 
+`sudo kismet -c wlan0`
+ 
+####  A wireless network and device detector, sniffer, wardriving tool, reconnaissance tool and WIDS (wireless intrusion detection) framework. Displays all the information such as bssid,ssid,devices per channel, etc of all the devices in that range.
+  
+### ssid image of our personal hotspots 
+![image](https://user-images.githubusercontent.com/68326118/230277751-378aead2-7b6d-4265-8827-225fb5148c0e.png)
+
+### bssid of all the devices in the range
+![image](https://user-images.githubusercontent.com/68326118/230278154-626833a7-3e83-45bf-978f-d6f69880eb16.png)
+

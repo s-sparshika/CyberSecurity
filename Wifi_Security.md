@@ -35,14 +35,42 @@ Each standard is an amendment that was ratified over time. The standards operate
 
 ## Perform Wi-Fi fingerprinting using Wigile, Inssider, and Kismet.
 
+#### Kismet, inSSIDer, and WiGLE are three different tools that are used for wireless network analysis and monitoring. Here is a brief overview of each tool:
+1. Kismet:
+Kismet is an open-source wireless network detector, sniffer, and intrusion detection system. It is designed to work with any 802.11 wireless network and can be used for packet sniffing, network traffic analysis, and wireless network monitoring. Kismet is available for Linux, Windows, and macOS and supports a variety of wireless network cards.
+
+2. inSSIDer:
+inSSIDer is a wireless network scanner that can be used to analyze and troubleshoot Wi-Fi networks. It provides information about wireless networks including signal strength, channel, encryption, and other network parameters. inSSIDer is available for Windows and macOS and can be used with any Wi-Fi network adapter.
+
+3. WiGLE:
+WiGLE is a website and a mobile app that allows users to search for and map wireless networks. It collects data from wireless networks and provides information about the location, SSID, and signal strength of nearby Wi-Fi networks. Users can also use WiGLE to upload their own wireless network data and contribute to the database. WiGLE is available for both Android and iOS devices.
+In summary, Kismet is more of an intrusion detection system that focuses on monitoring wireless networks for potential security breaches, while inSSIDer and WiGLE are tools for analyzing and troubleshooting Wi-Fi networks.
+
 ### Kismet 
+
 `sudo kismet -c wlan0`
  
-####  A wireless network and device detector, sniffer, wardriving tool, reconnaissance tool and WIDS (wireless intrusion detection) framework. Displays all the information such as bssid,ssid,devices per channel, etc of all the devices in that range.
+####  Its a linux tool. A wireless network and device detector, sniffer, wardriving tool, reconnaissance tool and WIDS (wireless intrusion detection) framework. Displays all the information such as bssid,ssid,devices per channel, etc of all the devices in that range. 
   
 ### ssid image of our personal hotspots 
 ![image](https://user-images.githubusercontent.com/68326118/230277751-378aead2-7b6d-4265-8827-225fb5148c0e.png)
 
 ### bssid of all the devices in the range
 ![image](https://user-images.githubusercontent.com/68326118/230278154-626833a7-3e83-45bf-978f-d6f69880eb16.png)
+
+### Wigle 
+- Here we downloanded an application from the playstore and we can see the information and also the geographical location of a particular ip address.
+
+![WhatsApp Image 2023-04-06 at 11 03 15 (1)](https://user-images.githubusercontent.com/68326118/230281125-e5f0daa6-adfb-4bbf-83fd-933939593905.jpeg)
+
+- Location of a particular ip address
+
+![WhatsApp Image 2023-04-06 at 11 03 15](https://user-images.githubusercontent.com/68326118/230281089-b5314c23-91c6-43d5-b1dc-28876fca6ae4.jpeg)
+
+### inssider
+![WhatsApp Image 2023-04-06 at 11 02 11](https://user-images.githubusercontent.com/68326118/230281222-70d53cee-88c9-4ad5-a157-0133da147a44.jpeg)
+
+
+
+
 

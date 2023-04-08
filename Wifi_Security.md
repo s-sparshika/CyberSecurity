@@ -96,8 +96,8 @@ Simple, medium,and complex passwords can be used for testing. Simple can be a di
 
 ![image](https://user-images.githubusercontent.com/68326118/230714611-9913f2c1-dbaf-43dc-8315-0d44a8e025d9.png)
 
-![image](https://user-images.githubusercontent.com/68326118/230715075-c5f7855d-79e7-4413-9585-a877f3bb38c9.png)
+![image](https://user-images.githubusercontent.com/68326118/230719251-dccc8f8f-33a8-4a49-897b-fef9ff3bf72e.png)
 
-![image](https://user-images.githubusercontent.com/68326118/230715236-565c06cf-42c1-4697-a744-d748f3111501.png)
+![image](https://user-images.githubusercontent.com/68326118/230719444-a9869e42-e9bd-41d5-8a7c-d3d9eedc9f2f.png)
 
-![image](https://user-images.githubusercontent.com/68326118/230716852-32f013b8-8f57-4aa2-97e0-e07db046c066.png)
+![image](https://user-images.githubusercontent.com/68326118/230720754-a0153f7c-f81f-40fa-9f54-f737ce53058e.png)

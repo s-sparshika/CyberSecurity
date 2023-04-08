@@ -88,3 +88,14 @@ The created access point
 
 
 
+### After capturing the required filesfortesting, usedictionarygeneration and password cracking tools to crack the Wi-Fi password. 
+a.You mustuse an existing word file to crack the password.
+b.Also you have to create your dictionaryfilefor cracking the passwords.
+c.Keep 3 different types of passwordsforyour Wi-Fi to test it. 
+Simple, medium,and complex passwords can be used for testing. Simple can be a dictionary word, medium can be of dictionaryword with some numbers, and complex can be generated from any password generatoronline. 
+
+![image](https://user-images.githubusercontent.com/68326118/230714611-9913f2c1-dbaf-43dc-8315-0d44a8e025d9.png)
+
+![image](https://user-images.githubusercontent.com/68326118/230715075-c5f7855d-79e7-4413-9585-a877f3bb38c9.png)
+
+![image](https://user-images.githubusercontent.com/68326118/230715236-565c06cf-42c1-4697-a744-d748f3111501.png)

@@ -26,13 +26,16 @@
 
 ![Screenshot 2023-04-18 185810](https://user-images.githubusercontent.com/68326118/232939905-3e144a61-3fc0-47ed-a377-fbd0fc0d935d.png)
 
-![image](https://user-images.githubusercontent.com/68326118/230723117-26becce3-1694-4a34-a3db-cf0a29865443.png)
-
 After the initalization steps : 
 we perform following steps : 
 
 ![Screenshot 2023-04-18 185659](https://user-images.githubusercontent.com/68326118/232939969-1691f107-8fca-49aa-b826-ab7c39a1d482.png)
 
+![image](https://user-images.githubusercontent.com/68326118/233023066-a2248113-68e6-4466-8d66-dce2a52456ae.png)
+
+
 where as with ike2 the establishment is getting failed 
 
 ![ike2](https://user-images.githubusercontent.com/68326118/232939510-515215db-7186-45b7-a644-67f91c8b064b.png)
+
+

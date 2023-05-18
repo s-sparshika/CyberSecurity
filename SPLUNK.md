@@ -7,9 +7,8 @@
 - Visualization: Splunk provides a range of visualization options such as charts, graphs, and tables to help users understand and analyze their data. Users can customize the visualization options to suit their needs.
 - Deployment options: Splunk can be deployed on-premises, in the cloud, or as a hybrid deployment. Splunk Enterprise can be deployed as a single instance or as a distributed environment with multiple indexers, search heads, and forwarders.
 ## Installation of Splunk Forwarder in kali
-![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/c4076d30-a9b7-44a5-a402-0b618700be31)
-![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/c3fafd3f-d340-4652-932a-79a4bd3d8d0f)
-![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/0c2a4333-0b34-4da6-a6c0-285496f78262)
+![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/57853e1d-a5c1-4a92-bd7a-4496d8a8acb2)
+
 ## Splunk Forwarding Configuration
 ![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/2db3f527-8cbc-4208-b361-8c288ef124f7)
 ![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/5bb98818-a86a-4bd5-a0b7-ec0e9c97a958)
@@ -26,7 +25,9 @@
 - We can also use command 'scan' in enterprise splunk to find the logs.
 ![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/cce64a2c-ae06-419a-a96a-f9876df0ddeb)
 
-## 3. Run Splunk >> Forwarder can be in the same system or another system(user’s convenience) >>Make sure the logs are indexing in the Splunk enterprise.
+## 3. Run Splunk
+- Forwarder can be in the same system or another system(user’s convenience) 
+- Make sure the logs are indexing in the Splunk enterprise.
 
 
 ## 4. 

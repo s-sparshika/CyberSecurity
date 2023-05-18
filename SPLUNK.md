@@ -28,7 +28,9 @@
 ## 3. Run Splunk
 - Forwarder can be in the same system or another system(user’s convenience) 
 - Make sure the logs are indexing in the Splunk enterprise.
+![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/24ccb890-a251-4390-9105-df7ef81d6b5e)
+![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/73158e69-6109-4375-b04a-5d2d67c435f3)
 
-
-## 4. 
+## 5. Perform multiple failure attempts i.e authentication failure, to identify this use filter stats.
 ![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/02babed6-24fa-4b3b-ae77-90a849fb042f)
+![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/31f0a5a6-2ef7-4389-90ef-5a2a5754d4d8)

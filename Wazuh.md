@@ -94,3 +94,78 @@ Wazuh presents a broad illustration of the logs. We can use the visualizations t
 ![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/7495b229-1d94-4ec5-930b-8817b5c7b36c)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Task 11: Generating Reports with Wazuh
+
+### Wazuh has a module for reporting which gives us a summarized breakdown view of events that occured on an agent.
+- Select a view to generate reports from.
+- Go to Modules- > security Events
+  
+  ![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/ff687372-fd3e-4626-b18d-a82ea67538fd)
+
+- So if this button is greyed out, there is no report data, so you will either need to change your query or extend the date range.
+- Navigate to report overview of dashboard within Wazuh
+  `Click Wazuh heading on top of the screen->Management->Reporting`
+
+![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/9d3365ed-f2e3-4b91-8336-473db5051e82)
+
+- This reports generated all the generated reports and to download the report we need to press the download button on the right side located under "Actions"
+
+### Q. Analyse the report. What is the name of the agent that has generated the most alerts?
+### A. AGENT-001
+
+
+
+
+
+
+
+
+
+# Task 12: Loading Sample Data
+
+### To load the sample data
+- Open the "Wazuh" tab in the heading.
+- Highlight over "Settings".
+- Select the "Sample Data" heading.
+- Press the "Add Data" button on the respective three cards to import the data.
+  
+- And to see data of different ranges we need to choose the range of date accordingly .
+
+![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/918eadbc-4bb0-4b22-b4f0-a4d9280a1d34)
+
+- To set up the time range in splunk after we load data , select calender on the top right corner and follow the steps given in the image below.
+
+![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/d624da33-1a4f-41f8-882b-9d0870e4c7d5)
+
+
+- To add data in splunk we can add by navigating to search and reporting and then we get add data option
+
+  ![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/37ed35cb-3e33-418b-9f6d-2a2055d3ae12)
+
+- Where as to get data of different time ranges in splunk by choosing the drop down 
+  
+![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/7028e32d-9131-42c1-9d47-b600db52122a)
+
+
+
+

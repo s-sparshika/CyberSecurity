@@ -10,7 +10,7 @@
 ### Benefits Of using Wazuh:
 - One of the most prominant benefits of using Wazuh is that it provides end-to-end security monitoring for endpoints and cloud workloads. This enables organizations to detect threats early on, respond quickly, and prevent potential damages.
 - It simplifies compliance management by providing real-time alerts for policy violations.
-- WIth its vulnerability detection capability, Wazuh reduces attack surface by identifying vulnerabilities before they are exploited.
+- WIth its vulnerability detection capability.
 ### Key Features of Wazuh
 - 1. Security Monitoring For End Points & cloud WorkLoads
 

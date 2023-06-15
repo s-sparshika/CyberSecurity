@@ -1,4 +1,4 @@
-## Task 1 Introduction
+## Task 1: Introduction
 
 ### Endpoint detection and response (EDR) are a series of tools and applications that monitor devices for an activity that could indicate a threat or security breach. These tools and applications have features that include:
 - Auditing a device for common vulnerabilities
@@ -34,7 +34,7 @@
 
 ![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/234da2ff-5e86-4f28-ba7f-1a896c934424)
 
-## Task 3 Wazuh Agent
+## Task 3: Wazuh Agent
 
 - Device that record the events and processes of a system.
 - It monitor the processes and events that takes place on a device , Ex: Authentication and user management, agent will offload these logs to a designated collector for processing such as Wazuh.
@@ -54,7 +54,7 @@ What group the agent will be under - you can sort agents into groups within Wazu
 ![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/808677fe-9903-496b-8dbb-5d1b55d88f9c)
 
 
-## Task 4 Wazuh Vulnerability Assessment & Security Events
+## Task 4: Wazuh Vulnerability Assessment & Security Events
 
 Wazuh’s Vulnerability Assessment module is a powerful tool used to periodically scan an agent's operating system for installed applications and their version numbers. The gathered, is sent back to the Wazuh server and compared against a database of CVEs to discover potential vulnerabilities. For example, the agent in the screenshot below has a version of Vim that is vulnerable to CVE-2019-12735.
 
@@ -79,7 +79,7 @@ These frequent actions, such as removing files, are often detected as a security
 
 ![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/a06d7c90-b656-4cd0-95d1-98c295020852)
 
-## Task 5 Wazuh Policy Auditing 
+## Task 5: Wazuh Policy Auditing 
 
 Wazuh is capable of auditing and monitoring an agen's configuration - proactively  recording event logs. When an audit is performed where a metric is given using multiple frameworks and legislations such as NIST , MITRE and GDPR.
 
@@ -93,25 +93,85 @@ Wazuh presents a broad illustration of the logs. We can use the visualizations t
 
 ![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/7495b229-1d94-4ec5-930b-8817b5c7b36c)
 
+# Task 6: Monitoring Logons with Wazuh
 
+# Task 7: Collecting Windows Logs with Wazuh
+### Q. What is the name of the tool that we can use to monitor system events?
+### A. Sysmon
 
+### Q. What standard application on Windows do these system events get recorded to?
+### A. Event Viewer
 
+# Task 8: Collecting Linux logs with Wazuh
+- Wazuh’s log collector service to create an entry on the agent to instruct what logs should be sent to the Wazuh management server.
+- For example, in this task, we will be monitoring the logs of an Apache2 web server. To begin, let’s configure the log collector service on a Linux server running the Wazuh agent.
+- Wazuh comes with many rules that enable Wazuh to analyze log files and can be found in /var/ossec/ruleset/rules. Some common applications include:
+    Docker
+    FTP
+    WordPress
+    SQL Server
+    MongoDB
+    Firewalld
+And many more.
+- In this task, Wazuh will digest Apache2 logs using the 0250-apache_rules.xml ruleset.
+- This ruleset can analyze apache2 logs for warnings and error messages like so: We will need to insert this into the Wazuh’s agent that is sending logs to the Wazuh management servers configuration file located in /var/ossec/etc/ossec.conf:
+![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/96f67d00-d6f8-4648-846b-af1fd1e62b1d)
 
+### Q. What is the full file path to the rules located on a Wazuh management server?
+### A. /var/ossec/ruleset/rules
 
+# Task 9: Auditing commands on linux with Wazhu
+- Wazuh utilises the `auditd` package that can be installed on Wazuh agents running on Debian/Ubuntu and CentOS operating systems
+- Auditd monitors the system for certain actions and events and will write this to a log file.
+- To make sure that auditd is present we need to run the command `sudo apt-get install auditd audispd-plugins` and enable this service to run currently as well as on boot `sudo systemctl enable auditd.service` & `sudo systemctl start auditd.service`
+- We should configure auditd to create a rule for the commands and events that we wish for it to monitor. 
+- Auditd rules are located in the following directory: `/etc/audit/rules.d/audit.rules`. We will be adding our rules manually.
 
+### Q. What application do we use on Linux to monitor events such as command execution?
+### A. auiditd
 
+### Q. What is the full path & filename for where the aforementioned application stores rules?
+### A. /etc/audit/rules.d/audit.rules
 
+# Task 10: Wazuh API
+### API allow the Wazuh management server to be interacted with using the command line because Wazuh management server requires authentication.
+- In this task we use `curl` tool to interact with Wazuh management
+- We should authenticate ourselves by providing a valid set of credentials to the authentication endpoint.
+- Next, Wazuh management server will give us a token , which is used for further interaction.
+- We can also store this token as an environemntal variable on our linux machine :
+`TOKEN=$(curl -u : -k -X GET "https://WAZUH_MANAGEMENT_SERVER_IP:55000/security/user/authenticate?raw=true")`
 
+Note: We should replace the WAZUH_MANAGEMENT_SERVER_IP with the IP address of the Wazuh management server 
 
+- To confirm for our authentication &  have been given a token by the Wazuh management server , we check by :
 
+`curl -k -X GET "https://MACHINE_IP:55000/" -H "Authorization: Bearer $TOKEN"`
 
+![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/62f68a20-6966-4f43-9eb0-a963dc176056)
 
+- We use the standard HTTP request methods such as `GET/POST/PUT/DELETE` by providing the relevant option after a -X i.e. -X GET
+- For example, List the Wazuh API to some statistics and important information about the Wazuh management server, including what services are being monitored and some general settings about the Wazuh management server:
+  `curl -k -X GET "https://MACHINE_IP:55000/manager/configuration?pretty=true§ion=global" -H "Authorization: Bearer $TOKEN"`
 
+![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/a49c3851-4288-4099-b6e2-56ba0be0c8d9)
 
+# Using Wazuh's API console:
+- Powerfull integrated API console within the Waziuh website to query management servers and agents.
+- To navigate we need to open:
+`Wazuh Heading->Tool->API console`
+- We will be having a few quiries that we can run .
 
+### Q. What is the name of the standard Linux tool that we can use to make requests to  the Wazuh management server?
+### A. curl
 
+### Q. What HTTP method would we use to retrieve information for a Wazuh management server API?
+### A. GET
 
+### Q. What HTTP method would we use to perform an action on a Wazuh management server API?
+### A. PUT
 
+### Q. Use the API console to find the Wazuh server's version.
+### A. v4.2.5
 
 
 # Task 11: Generating Reports with Wazuh
@@ -132,13 +192,6 @@ Wazuh presents a broad illustration of the logs. We can use the visualizations t
 
 ### Q. Analyse the report. What is the name of the agent that has generated the most alerts?
 ### A. AGENT-001
-
-
-
-
-
-
-
 
 
 # Task 12: Loading Sample Data

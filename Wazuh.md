@@ -12,6 +12,7 @@
 - It simplifies compliance management by providing real-time alerts for policy violations.
 - WIth its vulnerability detection capability.
 ### Key Features of Wazuh
+
 - 1. Security Monitoring For End Points & cloud WorkLoads
 
 #### It allows users to monitor all activity, including file changes, network connections, user behavior, and privileged account access. With Wazuh, we can detect threats in real-time and respond quickly to mitigate any risks.
@@ -25,7 +26,7 @@
 ####
 #### For example, we can configure rules that trigger specific actions when certain conditions are met, such as blocking an IP address or quarantining a compromised device. 
 
-- 3. Complian Management
+- 3. Compliance Management
 
 #### Wazuh provides a range of tools to help us to manage compliance, including policy templates, automated scans, and alerts that notify us when there are potential issues.
 #### Using Wazuh's compliance management feature can save our organization a lot of time and effort by automating many routine tasks. 

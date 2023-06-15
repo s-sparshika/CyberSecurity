@@ -221,6 +221,9 @@ Note: We should replace the WAZUH_MANAGEMENT_SERVER_IP with the IP address of th
   
   ![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/ff687372-fd3e-4626-b18d-a82ea67538fd)
 
+ ![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/521ec8d2-77f4-4c05-9119-121909986bfb)
+
+
 - So if this button is greyed out, there is no report data, so you will either need to change your query or extend the date range.
 - Navigate to report overview of dashboard within Wazuh
   `Click Wazuh heading on top of the screen->Management->Reporting`

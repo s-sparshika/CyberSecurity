@@ -17,7 +17,7 @@
 
 #### It allows users to monitor all activity, including file changes, network connections, user behavior, and privileged account access. With Wazuh, we can detect threats in real-time and respond quickly to mitigate any risks.
 #### For example, let's say an employee is working remotely using their laptop. Wazuh can monitor the device for any unauthorized access attempts or malware infections. If it detects any suspicious activity like multiple failed login attempts from different IP addresses or unusual data transfers outside of regular business hours, it will alert the security team immediately so they can investigate further.
-### Its similar with the cloud WorkLoads also,  Wazuh provides an agent that integrates with cloud platforms to provide enhanced protection for our cloud workload.
+#### Its similar with the cloud WorkLoads also,  Wazuh provides an agent that integrates with cloud platforms to provide enhanced protection for our cloud workload.
 
 - 2. Threat Detection and Response
 

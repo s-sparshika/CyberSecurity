@@ -52,7 +52,7 @@
 - Open source , freely available and extensive EDR solution.
 - It `operated on management and agent module.` 
 - A device named `manager` is dedicated for running Wazuh 
-- Operated on a  management and agent model where the `manager` is responsible for managing agents installed on the devices which we would like to monitor and `Agent` is a device that is being monitored for suspicious activity and potential security threats? 
+- Operated on a  management and agent model where the `manager` is responsible for managing agents installed on the devices which we would like to monitor and `Agent` is a device that is being monitored for suspicious activity and potential security threats
 
 ![image](https://github.com/s-sparshika/CyberSecurity/assets/68326118/71fab6aa-3ecf-4148-814f-14dc21ec3f3a)
 

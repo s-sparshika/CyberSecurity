@@ -4,13 +4,15 @@
 # Overview:
 
 ### Every organizations need a robust security platform to safeguard their digital assets. Wazuh is one such powerful open-source solution designed for enhanced protection and threat detection across endpoints and cloud workloads.
-### It is a free and open source security platform designed to provide extended detection and response (XDR) capabilities, with features such as security monitoring for endpoints and cloud workloads, threat detection and response, compliance management, log management and network security analysis, vulnerability detection and many more.
+### It is a free and open source security platform designed to provide extended detection and response capabilities, with features such as security monitoring for endpoints and cloud workloads, threat detection and response, compliance management, log management and network security analysis, vulnerability detection and many more.
 ### By leveraging the Elastic Stack for big data processing combined with Wazuh’s efficient indexing technology, organizations can quickly analyze large volumes of log files to detect anomalies or intrusions.
 ### With Wazuh we can gain real-time visibility into potential threats and vulnerabilities .
+
 ### Benefits Of using Wazuh:
 - One of the most prominant benefits of using Wazuh is that it provides end-to-end security monitoring for endpoints and cloud workloads. This enables organizations to detect threats early on, respond quickly, and prevent potential damages.
 - It simplifies compliance management by providing real-time alerts for policy violations.
 - WIth its vulnerability detection capability.
+  
 ### Key Features of Wazuh
 
 - 1. Security Monitoring For End Points & cloud WorkLoads
